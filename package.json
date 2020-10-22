@@ -1,0 +1,15 @@
+{
+  "name": "tarantupediaapiclient",
+  "version": "0.1.0",
+  "description": "A client for calling tranforming and mapping Tarantupedia records to Darwin Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Engelbrecht",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.2",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
