@@ -6,7 +6,10 @@ require('isomorphic-fetch')
 
 const API_KEY = require('./API_KEY')
 
+//currently just Harpactirinae //TODO update to call any taxon
 const tpediaURL = `http://www.tarantupedia.com/api/get/zoo/occurances?app=1&api_key=${API_KEY}&type=subfamily&id=5`
+
+
 const filePath = String.raw`C:\Users\engelbrechti\Google Drive\Baboon spider atlas\Data`
 const fileName = 'TarantupediaRecords 20201022.csv'
 
